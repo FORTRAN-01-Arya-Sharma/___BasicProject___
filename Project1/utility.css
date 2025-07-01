@@ -1,0 +1,58 @@
+/* this flex, justify-ceneter,items-center  are utility classes we can use them in any element*/
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-ceneter{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+.rounded{
+    border-radius: 5px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 11px;
+}
+
+/* For WebKit Browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1a1a1a; /* Dark track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #333; /* Dark grey thumb */
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #444; /* Slightly lighter on hover */
+}
+
+/* For Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #333 #1a1a1a;
+}
+body {
+    overflow-x: hidden; /* Hides horizontal scrolling */
+  }
+  
+  .songlist {
+    width: 100%; /* Ensures it doesn’t exceed parent width */
+    overflow-x: hidden;
+  }
